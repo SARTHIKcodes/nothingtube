@@ -1,3 +1,8 @@
+@font-face {
+  font-family:font ;
+  src: url(pictures/Olondon_.otf);
+}
+
 body {
             background-color: black;
         }
@@ -25,21 +30,20 @@ body {
         padding: 0;
         gap: 20px;
     }
-    nav li{
-      /* no fixed height needed */
-    }
+  
 
-    .github{
+    /* .github{
       margin-right: 40px;
-    }
+    } */
 
     nav a{
-      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-family:font;
       padding: 0px 15px;
       text-decoration: none;
       display: flex;
       align-items: center;
       transition: ease-in-out 0.3s;
+      font-size: larger;
     }
 
     nav a:hover {
@@ -150,9 +154,7 @@ body {
           height: 50px;
           margin-bottom: 10px;
         }
-        .github {
-          margin-right: 0;
-        }
+        
         nav ul {
           flex-direction: column;
           gap: 10px;
